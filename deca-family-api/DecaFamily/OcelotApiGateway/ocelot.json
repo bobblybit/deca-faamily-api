@@ -1,0 +1,663 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/v1/User",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/user",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/User/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/user/{userId}",
+      "UpstreamHttpMethod": [ "POST", "DELETE", "GET", "PATCH", "PUT" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/User/email/{email}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/user/email/{email}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/User/confirm-email",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/user/confirm-email?email={email}&token={token}",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/User/get-all-users",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/user/get-all-users",
+      "UpstreamHttpMethod": [ "GET" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/User/deactivate-user/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/user/User/deactivate-user/{userId}",
+      "UpstreamHttpMethod": [ "patch" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth/login",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/login",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth/forgot-password",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/forgot-password",
+      "UpstreamHttpMethod": [ "POST" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth/reset-password",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/reset-password",
+      "UpstreamHttpMethod": [ "patch" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth/google-signin",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/google-signin",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth/signin-google",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/signin-google",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth",
+      "UpstreamHttpMethod": [ "PATCH" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Auth/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/auth/{userId}",
+      "UpstreamHttpMethod": [ "PATCH" ],
+      "SwaggerKey": "users"
+    },
+
+    //Begin stack and squads endpoints
+    {
+      "DownstreamPathTemplate": "/api/v1/Squad/get-all-squads",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/squad/get-all-squads",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Stack/get-all-stacks",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/stack/get-all-stacks",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Stack/get-stack/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/stack/get-stack/{id}",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Squad/get-squad/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/squad/get-squad/{id}",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Stack/update-stack/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/stack/update-stack/{id}",
+      "UpstreamHttpMethod": [ "put" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Squad/update-squad/{id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/squad/update-squad/{id}",
+      "UpstreamHttpMethod": [ "put" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Stack/add-stack",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/stack/add-stack",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Squad/add-squad",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/squad/add-squad",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Stack/get-recent-stacks",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/stacks/get-recent-stacks",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    //End stack and squads endpoints
+
+    //start photos endpoints
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/{userId}",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/{userId}",
+      "UpstreamHttpMethod": [ "delete" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/{userId}/all-user-photos",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/{userId}/all-user-photos",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/{photoId}/user/{userId}/set-profile-photo",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/{photoId}/user/{userId}/set-profile-photo",
+      "UpstreamHttpMethod": [ "patch" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/{photoId}/user/{userId}/unset-profile-photo",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/{photoId}/user/{userId}/unset-profile-photo",
+      "UpstreamHttpMethod": [ "patch" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/{photoId}/user/{userId}/get-photo",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/{photoId}/user/{userId}/get-photo",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/photo/get-recent-photos",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/photo/get-recent-photos",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+
+
+    //End photos endpoints
+
+    {
+      "DownstreamPathTemplate": "/api/v1/Category/get-all-categories",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/category/get-all-categories",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Category",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/category",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Category/{categoryId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/category/{categoryId}",
+      "UpstreamHttpMethod": [ "get", "delete", "put" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article/like-article/{articleId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/like-article/{articleId}",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article/like-comment/{commentId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/like-comment/{commentId}",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article/dislike-article/{articleId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/dislike-article/{articleId}",
+      "UpstreamHttpMethod": [ "delete" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article/dislike-comment/{commentId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/dislike-comment/{commentId}",
+      "UpstreamHttpMethod": [ "delete" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article/get-comment/{commentId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/get-comment/{commentId}",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/comment/{articleId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/comment/{articleId}",
+      "UpstreamHttpMethod": [ "get", "post" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/comment/{commentId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/comment/{commentId}",
+      "UpstreamHttpMethod": [ "patch", "delete" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/article/get-articles-by-category",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/get-articles-by-category",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/Article/{articleId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44372
+        }
+      ],
+      "UpstreamPathTemplate": "/article/{articleId}",
+      "UpstreamHttpMethod": [ "patch", "get", "Delete" ],
+      "SwaggerKey": "article"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/role",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/role",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/role/{roleName}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/role/{roleName}",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/role",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/role",
+      "UpstreamHttpMethod": [ "get" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/role/{roleId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/role/{roleId}",
+      "UpstreamHttpMethod": [ "delete" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/role/add-user-role/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/role/add-user-role/{userId}",
+      "UpstreamHttpMethod": [ "post" ],
+      "SwaggerKey": "users"
+    },
+    {
+      "DownstreamPathTemplate": "/api/v1/role/remove-user-role/{userId}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 44325
+        }
+      ],
+      "UpstreamPathTemplate": "/role/remove-user-role/{userId}",
+      "UpstreamHttpMethod": [ "delete" ],
+      "SwaggerKey": "users"
+    }
+  ],
+  "SwaggerEndPoints": [
+    {
+      "Key": "users",
+      "Config": [
+        {
+          "Name": "Account Management API",
+          "Version": "v1",
+          "Url": "https://localhost:44325/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "article",
+      "TransformByOcelotConfig": true,
+      "Config": [
+        {
+          "Name": "Article Service API",
+          "Version": "v1",
+          "Url": "https://localhost:44372/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost"
+  }
+}

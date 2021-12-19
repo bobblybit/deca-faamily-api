@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Tripsch",
+    "logo": "http://placehold.it/32x32",
+    "moto": "Et eu cillum quis dolor labore minim proident qui sunt.",
+    "mission": "In culpa dolore aliquip minim adipisicing exercitation dolore laborum et culpa qui.",
+    "vision": "Sit tempor aute est amet irure magna eiusmod anim eiusmod do nostrud dolore laboris dolore.",
+    "description": "Deserunt incididunt reprehenderit ipsum laboris tempor aliquip sit ex adipisicing eiusmod occaecat Lorem.",
+    "CompanyAddresses": [
+      {
+        "street": "Montgomery Place",
+        "state": "Connecticut",
+        "city": "Sutton",
+        "country": "Guinea-Bissau"
+      },
+      {
+        "street": "Front Street",
+        "state": "Indiana",
+        "city": "Spelter",
+        "country": "Ghana"
+      }
+    ],
+    "companywebsites": [
+      {
+        "logo": "http://placehold.it/32x32",
+        "WebsiteUrl": "https://www.Accel.com"
+      }
+    ],
+    "departments": [
+      {
+        "name": "anim"
+      },
+      {
+        "name": "Lorem"
+      },
+      {
+        "name": "mollit"
+      },
+      {
+        "name": "amet"
+      }
+    ]
+  },
+  {
+    "name": "Keeg",
+    "logo": "http://placehold.it/32x32",
+    "moto": "Magna labore incididunt ea do.",
+    "mission": "Magna ipsum ut officia mollit commodo aute aute et amet dolore.",
+    "vision": "Minim do pariatur occaecat id duis laboris duis tempor et.",
+    "description": "Do aute qui dolore exercitation qui aute pariatur consequat pariatur id dolor.",
+    "CompanyAddresses": [
+      {
+        "street": "Thatford Avenue",
+        "state": "Ohio",
+        "city": "Martell",
+        "country": "Liechtenstein"
+      },
+      {
+        "street": "Dekalb Avenue",
+        "state": "Texas",
+        "city": "Bendon",
+        "country": "Colombia"
+      }
+    ],
+    "companywebsites": [
+      {
+        "logo": "http://placehold.it/32x32",
+        "WebsiteUrl": "https://www.Hyplex.com"
+      }
+    ],
+    "departments": [
+      {
+        "name": "amet"
+      },
+      {
+        "name": "nisi"
+      },
+      {
+        "name": "dolor"
+      },
+      {
+        "name": "aliquip"
+      }
+    ]
+  },
+  {
+    "name": "Valpreal",
+    "logo": "http://placehold.it/32x32",
+    "moto": "Magna consequat ut quis proident duis.",
+    "mission": "Magna enim nisi pariatur consectetur voluptate ut excepteur et cillum.",
+    "vision": "Duis eu do anim veniam commodo cupidatat fugiat ea consequat sint dolore do duis.",
+    "description": "Dolor ex non proident anim adipisicing consectetur ut quis consectetur elit.",
+    "CompanyAddresses": [
+      {
+        "street": "Beach Place",
+        "state": "Alaska",
+        "city": "Chesapeake",
+        "country": "Armenia"
+      },
+      {
+        "street": "Ryder Avenue",
+        "state": "Minnesota",
+        "city": "Galesville",
+        "country": "Iraq"
+      }
+    ],
+    "companywebsites": [
+      {
+        "logo": "http://placehold.it/32x32",
+        "WebsiteUrl": "https://www.Panzent.com"
+      }
+    ],
+    "departments": [
+      {
+        "name": "labore"
+      },
+      {
+        "name": "nisi"
+      },
+      {
+        "name": "laboris"
+      },
+      {
+        "name": "proident"
+      }
+    ]
+  },
+  {
+    "name": "Quizka",
+    "logo": "http://placehold.it/32x32",
+    "moto": "Aliqua exercitation quis consequat laboris Lorem adipisicing do dolore nulla ut cillum esse.",
+    "mission": "Culpa velit enim eu duis consequat esse consequat mollit quis laborum sint nostrud ea dolore.",
+    "vision": "Deserunt aute ullamco mollit ex ex amet eiusmod adipisicing in minim.",
+    "description": "Nostrud consequat non enim ex magna quis dolor voluptate amet.",
+    "CompanyAddresses": [
+      {
+        "street": "Creamer Street",
+        "state": "Nebraska",
+        "city": "Mathews",
+        "country": "Heard and McDonald Islands"
+      },
+      {
+        "street": "Pulaski Street",
+        "state": "South Carolina",
+        "city": "Dragoon",
+        "country": "Mali"
+      }
+    ],
+    "companywebsites": [
+      {
+        "logo": "http://placehold.it/32x32",
+        "WebsiteUrl": "https://www.Imageflow.com"
+      }
+    ],
+    "departments": [
+      {
+        "name": "cupidatat"
+      },
+      {
+        "name": "ex"
+      },
+      {
+        "name": "culpa"
+      },
+      {
+        "name": "ea"
+      }
+    ]
+  },
+  {
+    "name": "Orbalix",
+    "logo": "http://placehold.it/32x32",
+    "moto": "Ad in dolor quis quis elit sit.",
+    "mission": "Consequat esse fugiat anim magna.",
+    "vision": "Sit ullamco adipisicing duis amet esse consectetur et tempor officia.",
+    "description": "Cillum enim sunt eu mollit minim Lorem esse sunt exercitation aliquip dolor ad magna laboris.",
+    "CompanyAddresses": [
+      {
+        "street": "Scholes Street",
+        "state": "Missouri",
+        "city": "Riviera",
+        "country": "Macedonia"
+      },
+      {
+        "street": "Kensington Street",
+        "state": "Kansas",
+        "city": "Hanover",
+        "country": "Mozambique"
+      }
+    ],
+    "companywebsites": [
+      {
+        "logo": "http://placehold.it/32x32",
+        "WebsiteUrl": "https://www.Eschoir.com"
+      }
+    ],
+    "departments": [
+      {
+        "name": "laborum"
+      },
+      {
+        "name": "anim"
+      },
+      {
+        "name": "sit"
+      },
+      {
+        "name": "commodo"
+      }
+    ]
+  }
+]
